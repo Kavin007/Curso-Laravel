@@ -9,7 +9,7 @@
         	<div class="card-body">
             <h5 class="d-flex justify-content-center">Listar Cursos</h5>
 
-            <table class="table">
+            <table class="table table-bordered table-dark text-center">
 				<thead>
 					<tr>
 						<th scope="col">ID</th>
@@ -31,6 +31,7 @@
 						</td>
 						#RESPONSAVEL POR BUSCAR A IMAGEM NO BANCO
 						-->
+						
 						<td>
 							<a class="btn btn-info" href="{{ route('cursos.editar',$registro->id)}}">Editar</a>
 							<a class="btn btn-danger" href="{{ route('cursos.deletar',$registro->id)}}">Deletar</a>
