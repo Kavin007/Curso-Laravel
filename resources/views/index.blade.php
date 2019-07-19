@@ -9,8 +9,8 @@
         	<div class="card-body">
             <h5 class="d-flex justify-content-center">Listar Cursos</h5>
 
-            <table class="table table-bordered table-dark text-center">
-				<thead>
+            <table class="table table-bordered text-center">
+				<thead class="thead-light">
 					<tr>
 						<th scope="col">ID</th>
 						<th scope="col">Titulo</th>
