@@ -18,4 +18,17 @@ class CursoController extends Controller
 
     	return view('adicionar');
     }
+
+
+    public function salvar(Request $req)
+    {
+      $dados = $req->all();
+      Curso::create($dados);
+
+      return view('adicionar');
+
+    
+
+    }
+
 }
