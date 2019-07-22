@@ -45,9 +45,13 @@ class CursoController extends Controller
 
       $registros = Curso::all();
     	return view('index',compact('registros'));
+    }
 
-    
+    public function deletar($id)
+    {
+      Curso::find($id)->delete();
 
+      return view('index',compact('registros'));
     }
 
 }

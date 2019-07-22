@@ -1,10 +1,8 @@
 	@include('_includes.master')
 
 	@section('conteudo')
-	
-	<div class="container d-flex justify-content-center" style="padding:70px">
 	<h5 class="d-flex justify-content-center">Adicionar Curso</h5>
-	
+	<div class="container d-flex justify-content-center" style="padding:60px">	
 				<form class="" action="{{route('cursos.salvar')}}" method="POST">
 					{{ csrf_field() }}
 
