@@ -1,7 +1,7 @@
 <div class="card" style="width: 50rem;">
   <div class="card-body">
 
-    <h5 class="d-flex justify-content-center">Adicionar Curso</h5>
+    
 
     
       <div class="form-group">

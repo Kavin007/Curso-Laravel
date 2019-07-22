@@ -31,4 +31,23 @@ class CursoController extends Controller
 
     }
 
+    public function editar($id)
+    {
+      $registro = Curso::find($id);
+      return view('editar',compact('registro'));
+    }
+
+
+    public function atualizar(Request $req, $id)
+    {
+      $dados = $req->all();
+      Curso::find($id)->update($dados);
+
+      $registros = Curso::all();
+    	return view('index',compact('registros'));
+
+    
+
+    }
+
 }
