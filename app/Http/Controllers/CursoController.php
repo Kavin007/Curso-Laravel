@@ -43,15 +43,17 @@ class CursoController extends Controller
       $dados = $req->all();
       Curso::find($id)->update($dados);
 
-      $registros = Curso::all();
-    	return view('index',compact('registros'));
+      $registro = Curso::all();
+    	return redirect()->route('cursos');
     }
 
     public function deletar($id)
     {
       Curso::find($id)->delete();
+      $registro = Curso::all();
 
-      return view('index',compact('registros'));
+      
+      return redirect()->route('cursos');
     }
 
 }
