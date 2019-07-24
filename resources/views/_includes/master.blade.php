@@ -13,7 +13,7 @@
 	    		<div class="col-sm-10">
 	   	   <ul class="nav justify-content-end">
 			  <li class="nav-item">
-			    <a class="nav-link active" href="#">Ativo</a>
+			    <a class="nav-link active" href="#">Inicio</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" 
@@ -22,6 +22,9 @@
 			  <li class="nav-item">
 			    <a class="nav-link" 
 			    href="{{route('cursos.adicionar')}}">Adicionar Curso</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link active" href="{{route('cursos.cadFuncionario')}}">Cadastrar Funcionario</a>
 			  </li>
 			  <li class="nav-item">
 			    <a class="nav-link" href="#">Sair</a>

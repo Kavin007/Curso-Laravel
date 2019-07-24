@@ -10,7 +10,7 @@
             <h5 class="d-flex justify-content-center">Listar Cursos</h5>
 
             <table class="table table-bordered text-center">
-				<thead class="thead-light">
+				<thead class="thead-dark">
 					<tr>
 						<th scope="col">ID</th>
 						<th scope="col">Titulo</th>

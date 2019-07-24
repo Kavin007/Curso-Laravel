@@ -56,4 +56,9 @@ class CursoController extends Controller
       return redirect()->route('cursos');
     }
 
+    public function cadFuncionario(){
+
+    	return view('cadFuncionario');
+    }
+
 }

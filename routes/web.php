@@ -18,6 +18,7 @@ Route::get('/', function () {
 
 Route::get('/cursos',['as'=>'cursos','uses'=> 'CursoController@index']);
 Route::get('/cursos/adicionar',['as'=>'cursos.adicionar','uses'=> 'CursoController@adicionar']);
+Route::get('/cursos/cadFuncionario',['as'=>'cursos.cadFuncionario','uses'=> 'CursoController@cadFuncionario']);
 Route::post('/cursos/salvar',['as'=>'cursos.salvar','uses'=> 'CursoController@salvar']);
 Route::get('/cursos/editar/{id}',['as'=>'cursos.editar','uses'=> 'CursoController@editar']);
 Route::put('/cursos/atualizar/{id}',['as'=>'cursos.atualizar','uses'=> 'CursoController@atualizar']);
