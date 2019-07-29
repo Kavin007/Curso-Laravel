@@ -26,9 +26,6 @@ class CursoController extends Controller
       Curso::create($dados);
 
       return view('adicionar');
-
-    
-
     }
 
     public function editar($id)
@@ -56,9 +53,6 @@ class CursoController extends Controller
       return redirect()->route('cursos');
     }
 
-    public function cadFuncionario(){
 
-    	return view('cadFuncionario');
-    }
 
 }

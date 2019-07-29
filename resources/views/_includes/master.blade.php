@@ -24,10 +24,7 @@
 			    href="{{route('cursos.adicionar')}}">Adicionar Curso</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link active" href="{{route('cursos.cadFuncionario')}}">Cadastrar Funcionario</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Sair</a>
+			    <a class="nav-link" href="{{route('login.sair')}}">Sair</a>
 			  </li>
 			</ul>
 	</div>
